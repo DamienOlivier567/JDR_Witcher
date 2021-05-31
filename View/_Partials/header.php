@@ -22,8 +22,8 @@
                     <ul class="item-dropdown">
                         <li class="sub-item"><a href="/View/Aidedejeu/charactercreation.php">Création personnages</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/characterclasse.php">Classes personnages</a></li>
-                        <li class="sub-item"><a href="#">Règles alternatives</a></li>
-                        <li class="sub-item"><a href="#">Aides de jeu</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/rules.php">Règles alternatives</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/help.php">Aides de jeu</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/effets.php">Effets</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/shop.php">Magasins</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/faq.php">FAQ</a></li>
@@ -34,9 +34,8 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Ressources</a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="#">Fiches PNJ</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/bestiary.php">Bestiaire</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/listofmonster.php">Listes Monstres</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/pnj.php">Fiches PNJ</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/bestiary.php">Bestiaire/Liste de monstre</a></li>
                         <li class="sub-item"><a href="#">Magie</a></li>
                         <li class="sub-item"><a href="#">Alchimie</a></li>
                         <li class="sub-item"><a href="/View/Ressources/story.php">Campagnes</a></li>
@@ -67,8 +66,14 @@
                     <ul class="item-dropdown">
                         <li class="sub-item"><a href="/View/Liens/connexion.php">Connexion</a></li>
                         <li class="sub-item"><a href="/View/Liens/registration.php">Inscription</a></li>
-                        <li class="sub-item"><a href="/View/Liens/blog.php">Vatt'Ghern-Blog</a></li>
-                        <li class="sub-item"><a href="#">Kaer morhen</a></li>
+                        <?php
+                        if (isset($_SESSION["id"])){
+                        ?>
+                            <li class="sub-item"><a href="/View/Liens/blog.php">Vatt'Ghern-Blog</a></li>
+                            <li class="sub-item"><a href="#">Kaer morhen</a></li>
+                            <?php
+                        }
+                        ?>
                         <li class="sub-item"><a href="#">Mentions Légales</a></li>
                     </ul>
                 </li>

@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="">
+    <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
+      <change afterPath="$PROJECT_DIR$/View/Aidedejeu/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Aidedejeu/rules.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Ressources/pnj.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/aide aux combats_v1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/exemple_combat.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/synthse_combat.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/gwynt.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/jeux_tavernes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/prison_torture.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/listofmonster.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/cookie.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/cookie.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/aides/regles" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -49,18 +59,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\regles" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\video" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\campagne" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\creations_personnages" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Aidedejeu" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img\monster" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage\image" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\creations_personnages\pdf" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\campagne" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\PNJ" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\aidejeu" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\regles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,11 +107,44 @@
       <workItem from="1622185177799" duration="406000" />
       <workItem from="1622185766009" duration="4479000" />
       <workItem from="1622404460546" duration="41000" />
-      <workItem from="1622443819594" duration="3340000" />
+      <workItem from="1622443819594" duration="7382000" />
     </task>
+    <task id="LOCAL-00001" summary="Nouveau style du menu">
+      <created>1622447600230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622447600230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Nouveau style du menu">
+      <created>1622447682556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622447682556</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Nouveau style du menu">
+      <created>1622447741867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622447741867</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Nouveau style du menu">
+      <created>1622449925382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622449925382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nouveau style du menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nouveau style du menu" />
   </component>
 </project>

@@ -27,7 +27,7 @@ if(isset($_GET['WJDR'])) {
     switch($_GET['WJDR']) {
 
 
-        //Gestion des appels de fonction en fonction de l'url
+    // Management of function calls according to the url
         case 'blog':
             $controller = new \Controller\BlogController();
             $controller->blogPage();
