@@ -79,9 +79,9 @@
         </nav>
 
         <?php
-        if (isset($_SESSION["id"])) {
+        if (isset($_SESSION['id'])) {
             ?>
-            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?= $_SESSION["pseudo"]?></p>
+            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?= $_SESSION['pseudo']?></p>
             <a class="menu colorRed" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
             <?php
         }

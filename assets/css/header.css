@@ -47,6 +47,10 @@ body {
     overflow: hidden;
 }
 
+.nav-item {
+    display: inline-block;
+}
+
 a {
     display: block;
     padding: 1rem;
@@ -70,6 +74,7 @@ li:hover ul {
 }
 
 a {
+    display: inline-block;
     min-width: 10rem;
     width: 100%;
     text-align: left;

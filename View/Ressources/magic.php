@@ -59,7 +59,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/magic/tome_of_magic.pdf">
-                        <img class="img-fluid" src="" alt="tom de magie"></a>
+                        <img class="img-fluid" src="../../fichiers/resources/magic/img/sort.PNG" alt="tom de magie"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Livre de magie</h3>

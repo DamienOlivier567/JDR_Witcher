@@ -25,6 +25,14 @@ h1{
     color: black;
 }
 
+#contract{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Langar', cursive;
+    color: black;
+}
+
 button{
     text-align: center;
     font-size: 30px;

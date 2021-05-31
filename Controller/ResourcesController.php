@@ -14,7 +14,8 @@ class ResourcesController{
     }
 
     public function magic(){
-        $this->render('magic', 'Magie');
+        $this->render('magic', 'Magie', [
+        ]);
     }
 
     public function pnj(){

@@ -2,75 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change afterPath="$PROJECT_DIR$/Controller/HelpController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/ResourcesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/ToolsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Ressources/alchemy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Ressources/magic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/img/aide_combat.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/img/exemple_combat.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/aidejeu/img/synthese_combat.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/img/gwent.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/img/prison.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/aides/regles/img/taverne.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/alchimiste.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/aubergiste.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/docteur.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/forgeron.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/marchand.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/noble.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/PNJ/img/paysans.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/extra_religions.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/img/druides.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/img/magie.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/img/sort.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/livres_sorts.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/magic/tome_of_magic.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/StoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/BlogController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/CommentController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Entity/Story.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Entity/Comment.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Manager/ArticleManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Manager/StoryManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Manager/CommentManager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/help.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/help.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/rules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Liens/blog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Outils/contractgenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/contractgenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Outils/namegenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/namegenerator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Ressources/pnj.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/pnj.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Ressources/story.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/HelpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/HelpController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/ResourcesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ResourcesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/magic.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/magic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/_Partials/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/_partials/base.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/_partials/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/_partials/header.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/add.article.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/add.comment.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/article.comment.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/articles.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/delete.article.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/delete.comment.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/home.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/update.article.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/blog/update.comment.view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/contractgenerator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/namegenerator.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/generator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gardien_pont.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/img/gardien_pont.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/masque_peste.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/img/masque_peste.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/resistant.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/img/resistant.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/stige.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/img/stige.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/vodianoi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/img/vodianoi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/diceroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/diceroller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers/resources/campagne/gardien_pont.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/pdf/gardien_pont.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers/resources/campagne/mal_sonnen.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/pdf/mal_sonnen.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers/resources/campagne/resistant.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/pdf/resistant.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers/resources/campagne/strige.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/pdf/strige.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fichiers/resources/campagne/vodianoi.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fichiers/resources/campagne/pdf/vodianoi.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/generator.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/generator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/disconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/disconnection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +98,7 @@
       <workItem from="1622185177799" duration="406000" />
       <workItem from="1622185766009" duration="4479000" />
       <workItem from="1622404460546" duration="41000" />
-      <workItem from="1622443819594" duration="20186000" />
+      <workItem from="1622443819594" duration="23375000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -196,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622451926539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="New Controller">
+      <created>1622467925869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1622467925869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +150,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nouveau style du menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nouveau style du menu" />
+    <MESSAGE value="New Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Controller" />
   </component>
 </project>
