@@ -1,4 +1,3 @@
-
 let navmenu = document.getElementsByClassName("nav-menu");
 let ul = document.getElementsByTagName("ul");
 let li = document.getElementsByTagName("li");

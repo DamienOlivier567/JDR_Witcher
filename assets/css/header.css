@@ -40,31 +40,23 @@ body {
     width: 5rem;
 }
 
-
 .nav-menu {
     margin: 0;
     padding: 4px 0 0 0;
     list-style: none;
-    text-align: right
+    text-align: right;
+    overflow: hidden;
 }
 
-li {
-    display: inline-block;
-    position: relative;
-
-}
 
 a {
     display: block;
     padding: 1rem;
     color: white;
+    overflow: hidden;
 }
 
-:hover a {
-     color: white;
- }
-
-.item-dropdown {
+.item-dropdown{
     position: absolute;
     margin: 0.5rem 0;
     padding: 0;
@@ -73,12 +65,17 @@ a {
     z-index: 1;
 }
 
+li:hover ul {
+    display: inline-block;
+    position: relative;
+
+}
+
 a {
     min-width: 10rem;
     width: 100%;
     text-align: left;
 }
-
 
 i.fas {
     margin-left: 1rem;
@@ -87,10 +84,6 @@ i.fas {
 a {
     color: white;
     padding-bottom: 1rem;
-}
-
-:hover a {
-    color: white;
 }
 
 @media (max-width: 750px) {
