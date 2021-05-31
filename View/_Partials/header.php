@@ -13,7 +13,7 @@
 <header class="header">
     <div class="container">
         <div class="wrapper">
-            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg"></h1> </a>
+            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg"></h1></a>
         </div>
         <nav class="navbar">
             <ul class="nav-menu">
@@ -36,8 +36,8 @@
                     <ul class="item-dropdown">
                         <li class="sub-item"><a href="/View/Ressources/pnj.php">Fiches PNJ</a></li>
                         <li class="sub-item"><a href="/View/Ressources/bestiary.php">Bestiaire/Liste de monstre</a></li>
-                        <li class="sub-item"><a href="#">Magie</a></li>
-                        <li class="sub-item"><a href="#">Alchimie</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/magic.php">Magie</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/alchemy.php">Alchimie</a></li>
                         <li class="sub-item"><a href="/View/Ressources/story.php">Campagnes</a></li>
                         <?php
                         if (isset($_SESSION["id"])){
@@ -47,8 +47,6 @@
                         <?php
                         }
                         ?>
-                        ?>
-
                     </ul>
                 </li>
 
@@ -69,7 +67,7 @@
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="/View/Liens/blog.php">Vatt'Ghern-Blog</a></li>
+                            <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
                         }
@@ -91,7 +89,6 @@
 
     </div>
 </header>
-
 
 </body>
 </html>

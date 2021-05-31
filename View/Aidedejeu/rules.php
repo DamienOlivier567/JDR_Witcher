@@ -21,7 +21,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/regles/gwynt.pdf">
-                        <img class="img-fluid" src="" alt="archer"></a>
+                        <img class="img-fluid" src="../../fichiers/aides/regles/img/gwent.PNG" alt="archer"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Jouer au Gwynt</h3>
@@ -40,7 +40,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/regles/jeux_tavernes.pdf">
-                        <img class="img-fluid" src="" alt="erudit"></a>
+                        <img class="img-fluid" src="../../fichiers/aides/regles/img/taverne.PNG" alt="erudit"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Jeux Tavernes</h3>
@@ -60,7 +60,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/regles/prison_torture.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/aides/regles/img/prison.PNG" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Prison et Tortures</h3>

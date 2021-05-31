@@ -21,7 +21,7 @@ require_once "../_Partials/header.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/resources/campagne/gardien_pont.pdf"><img class="img-fluid" src="../../assets/img/gardien_pont.jpg" alt=""></a>
+                    <a target='blank'  href="../../fichiers/resources/campagne/pdf/gardien_pont.pdf"><img class="img-fluid" src="../../fichiers/resources/campagne/img/gardien_pont.jpg" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Le gardien du pont</h3>
@@ -31,7 +31,7 @@ require_once "../_Partials/header.php"
                         et ils n’ont pas d’argent !
                         (34 pages)
                     </p>
-                    <p><a target='blank' href="../../fichiers/resources/campagne/gardien_pont.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/resources/campagne/pdf/gardien_pont.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -42,14 +42,14 @@ require_once "../_Partials/header.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/resources/campagne/mal_sonnen.pdf"><img class="img-fluid" src="../../assets/img/masque_peste.jpg" alt=""></a>
+                    <a target='blank'  href="../../fichiers/resources/campagne/pdf/mal_sonnen.pdf"><img class="img-fluid" src="../../fichiers/resources/campagne/img/masque_peste.jpg" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Le mal de Sonnen</h3>
                     <p>
                         le village de Sonnen, où sévit actuellement une maladie étrange que le médecin local n’arrive pas à endigue
                     </p>
-                    <p><a target='blank' href="../../fichiers/resources/campagne/mal_sonnen.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/resources/campagne/pdf/mal_sonnen.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ require_once "../_Partials/header.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/resources/campagne/strige.pdf"><img class="img-fluid" src="../../assets/img/stige.jpg" alt=""></a>
+                    <a target='blank'  href="../../fichiers/resources/campagne/pdf/strige.pdf"><img class="img-fluid" src="../../fichiers/resources/campagne/img/stige.jpg" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>La Strige</h3>
@@ -69,7 +69,7 @@ require_once "../_Partials/header.php"
                         Une silhouette tournait autour d’eux. Un jet de vigilance est possible afin de déterminer
                         la type de créature, toutefois le combat est impossible puisque la strige va fuir.
                     </p>
-                    <p><a target='blank' href="../../fichiers/resources/campagne/strige.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/resources/campagne/pdf/strige.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ require_once "../_Partials/header.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/resources/campagne/vodianoi.pdf"><img class="img-fluid" src="../../assets/img/vodianoi.jpg" alt=""></a>
+                    <a target='blank'  href="../../fichiers/resources/campagne/pdf/vodianoi.pdf"><img class="img-fluid" src="../../fichiers/resources/campagne/img/vodianoi.jpg" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Mine en eaux troubles…</h3>
@@ -89,7 +89,7 @@ require_once "../_Partials/header.php"
                         loin du grand lac de Wyzima. Sous ce déluge, ils vont devoir enquêter et
                         explorer un village à moitié immergé qui serait l'antre de monstruosités aquatiques, des Vodianoï..
                     </p>
-                    <p><a target='blank' href="../../fichiers/resources/campagne/vodianoi.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/resources/campagne/pdf/vodianoi.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@ require_once "../_Partials/header.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/resources/campagne/resistant.pdf"><img class="img-fluid" src="../../assets/img/resistant.jpg" alt=""></a>
+                    <a target='blank'  href="../../fichiers/resources/campagne/pdf/resistant.pdf"><img class="img-fluid" src="../../fichiers/resources/campagne/img/resistant.jpg" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Une vie de Résistant</h3>
@@ -109,7 +109,7 @@ require_once "../_Partials/header.php"
                         ils doivent d’abord les aider à rassembler des ressources, défendre le camp.
                         Puis ils vont apprendre que la sœur du chef a été faite prisonnière et ils doivent la secourir.
                     </p>
-                    <p><a target='blank' href="../../fichiers/resources/campagne/resistant.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/resources/campagne/pdf/resistant.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>

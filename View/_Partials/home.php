@@ -32,7 +32,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="bgImg"><img src="../../assets/img/gardien_pont.jpg" alt="image"></div>
+                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/gardien_pont.jpg" alt="image"></div>
             </li>
             <li class="itemsC">
                 <div class="contents">
@@ -44,7 +44,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="bgImg"><img src="../../assets/img/masque_peste.jpg" alt="image"></div>
+                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/masque_peste.jpg" alt="image"></div>
             </li>
             <li class="itemsC">
                 <div class="contents">
@@ -55,7 +55,7 @@
                         autour d’eux.</p>
                     </div>
                 </div>
-                <div class="bgImg"><img src="../../assets/img/stige.jpg" alt="image"></div>
+                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/stige.jpg" alt="image"></div>
             </li>
             <li class="itemsC">
                 <div class="contents">
@@ -66,7 +66,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="bgImg"><img src="../../assets/img/vodianoi.jpg" alt="image"></div>
+                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/vodianoi.jpg" alt="image"></div>
             </li>
             <li class="itemsC">
                 <div class="contents">
@@ -76,14 +76,12 @@
                             ils doivent d’abord les aider à rassembler des ressources, défendre le camp. Puis un desastre.</p>
                     </div>
                 </div>
-                <div class="bgImg"><img src="../../assets/img/resistant.jpg" alt="image"></div>
+                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/resistant.jpg" alt="image"></div>
             </li>
         </ul>
     </div>
     </body>
 
-
-<script src="../../assets/js/home.js"
 </html>
 
 

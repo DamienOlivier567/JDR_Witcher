@@ -4,23 +4,22 @@ session_start();
 require_once "./View/_Partials/home.php";
 
 require_once './Model/Entity/User.php';
-require_once './Model/Entity/Article.php';
-require_once './Model/Entity/Comment.php';
+require_once './Model/Entity/Story.php';
 require_once './Model/Entity/Role.php';
 
 require_once './Model/DB.php';
 require_once './Model/Manager/Traits/ManagerTrait.php';
 require_once './Controller/Traits/RenderViewTrait.php';
 
-require_once './Model/Manager/ArticleManager.php';
+require_once './Model/Manager/StoryManager.php';
 require_once './Model/Manager/UserManager.php';
-require_once './Model/Manager/CommentManager.php';
 
-require_once './Controller/BlogController.php';
 
-use Controller\CommentController;
 use Controller\HomeController;
-use Controller\ArticleController;
+use Controller\StoryController;
+use Controller\ToolsController;
+use Controller\HelpController;
+use Controller\ResourcesController;
 
 if(isset($_GET['WJDR'])) {
     //Then, the user requests an action to be performed.
@@ -28,10 +27,40 @@ if(isset($_GET['WJDR'])) {
 
 
     // Management of function calls according to the url
-        case 'blog':
-            $controller = new \Controller\BlogController();
-            $controller->blogPage();
+
+        case 'tools':
+            $controller = new \Controller\ToolsController();
+            $controller->contract();
+
+            $controller = new \Controller\ToolsController();
+            $controller->name();
+
+            $controller = new \Controller\ToolsController();
+            $controller->dice();
+
             break;
+
+        case 'help':
+            $controller = new \Controller\HelpController();
+            $controller->characterclasse();
+
+            $controller = new \Controller\HelpController();
+            $controller->charactercreation();
+
+            $controller = new \Controller\HelpController();
+            $controller->effects();
+
+            $controller = new \Controller\HelpController();
+            $controller->faq();
+
+            $controller = new \Controller\HelpController();
+            $controller->help();
+
+            $controller = new \Controller\HelpController();
+            $controller->rules();
+
+            $controller = new \Controller\HelpController();
+            $controller->shop();
 
     }
 }
@@ -39,3 +68,4 @@ else{
     $controller = new HomeController();
     $controller->showHome();
 }
+

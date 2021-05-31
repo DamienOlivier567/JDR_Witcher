@@ -21,7 +21,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/noble.pdf">
-                        <img class="img-fluid" src="" alt="archer"></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/noble.PNG" alt="Noble"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Noble</h3>
@@ -40,7 +40,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_alchimiste.pdf">
-                        <img class="img-fluid" src="" alt="erudit"></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/alchimiste.PNG" alt="Alchimiste"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Alchimiste</h3>
@@ -59,7 +59,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_aubergiste.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/aubergiste.PNG" alt="Aubergiste"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Aubergiste</h3>
@@ -78,7 +78,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_docteur.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/docteur.PNG" alt="Docteur"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Docteur</h3>
@@ -96,7 +96,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_forgeron.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/forgeron.PNG" alt="Forgeron"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Forgerons</h3>
@@ -115,7 +115,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_marchand.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/marchand.PNG" alt="Marchand"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Marchand</h3>
@@ -133,7 +133,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/PNJ/pnj_paysan.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/resources/PNJ/img/paysans.PNG" alt="Paysans"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Paysans</h3>

@@ -21,7 +21,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/aidejeu/exemple_combat.pdf">
-                        <img class="img-fluid" src="" alt="archer"></a>
+                        <img class="img-fluid" src="../../fichiers/aides/aidejeu/img/exemple_combat.PNG" alt="Exemple Combat"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Exemple de combat</h3>
@@ -40,7 +40,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/aidejeu/aide%20aux%20combats_v1.pdf">
-                        <img class="img-fluid" src="" alt="erudit"></a>
+                        <img class="img-fluid" src="../../fichiers/aides/aidejeu/img/aide_combat.PNG" alt="Aide Combat"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Aide de combat</h3>
@@ -59,7 +59,7 @@ require_once "../_Partials/header.php"
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/aides/aidejeu/synthse_combat.pdf">
-                        <img class="img-fluid" src="" alt=""></a>
+                        <img class="img-fluid" src="../../fichiers/aides/aidejeu/img/synthese_combat.PNG" alt="Synthese Combat"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Synthese de combat</h3>
@@ -71,7 +71,6 @@ require_once "../_Partials/header.php"
             </div>
         </div>
     </div>
-
 
 </div>
 
