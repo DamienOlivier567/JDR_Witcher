@@ -1,0 +1,173 @@
+* {
+    transition:all .5s;
+}
+
+body {
+    background:url('../img/witcher-wallpaper.jpg') no-repeat;
+    background-size:100%;
+}
+
+#mainBlock {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    padding:15px;
+    background:#333;
+    box-sizing:border-box;
+}
+
+#mainBlock:before {
+    content:"";
+    position:absolute;
+    left:0;
+    top:-35px;
+    border-style:solid;
+    border-width:35px 0 0 530px;
+    border-color:transparent transparent transparent #333;
+}
+
+#mainBlock:after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-35px;
+    border-style:solid;
+    border-width:0 530px 35px 0;
+    border-color:transparent #333 transparent transparent;
+}
+
+input[name="toggle"] {
+    display:none;
+}
+
+#signup:checked ~ label[for="signup"],
+#login:checked ~ label[for="login"] {
+    background: red;
+}
+
+#signup:checked ~ #loginform,
+#login:checked ~ #signupform {
+    display:none;
+}
+
+#signup:checked ~ #signupform,
+#login:checked ~ #loginform {
+    display:block;
+}
+
+label[for="signup"], label[for="login"] {
+    display:inline-block;
+    color:white;
+    width:250px;
+    font-size:28px;
+    text-align:center;
+    background:#444;
+    padding:3px 0 3px 0;
+    cursor:pointer;
+}
+
+label {
+    display:block;
+    margin:5px 0 5px 0;
+    color:#ccc;
+}
+
+#signupform {
+    margin-top:20px;
+    font-size:20px;
+}
+
+#loginform {
+    margin-top:20px;
+    display:none;
+}
+
+input {
+    position:relative;
+    background:transparent;
+    border:2px solid #ccc;
+    border-radius:5px;
+    font-size:20px;
+    color:#bbb;
+    padding:3px;
+    outline:none;
+    box-sizing:border-box;
+    z-index:1;
+}
+
+input:focus {
+    border:2px solid red;
+}
+
+input:valid + .checkmark {
+    opacity:1;
+}
+
+.wrapper {
+    position:relative;
+}
+
+.checkmark {
+    position:absolute;
+    width:25px;
+    height:25px;
+    font-size:22px;
+    top:7px;
+    right:5px;
+    color:red;
+    opacity:0;
+    z-index:2;
+}
+
+#nameBlock, #usernameBlock {
+    display:inline-block;
+}
+
+#usernameBlock {
+    margin-left:10px;
+}
+
+#name, #username {
+    display:inline-block;
+    width:245px;
+}
+
+#email, #password {
+    display:block;
+    width:500px;
+}
+
+#passNote {
+    font-size:14px;
+    color:#aaa;
+}
+
+input[type="submit"] {
+    border:none;
+    margin-top:10px;
+    color:white;
+    background:red;
+    width:100%;
+    padding:5px;
+    box-sizing:border-box;
+    cursor:pointer;
+    -webkit-appearance:none;
+}
+
+input[type="submit"]:hover {
+    background:red;
+}
+
+input[type="submit"]:active {
+    color:#333;
+}
+
+#loginform label {
+    margin:5px 0 5px 0;
+    font-size:20px;
+}
+
+#loginform input {
+    width:100%;
+}
+

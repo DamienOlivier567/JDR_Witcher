@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="ProjectId" id="1qlUU9q5U8270L7IoOXoTlAYInj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/video" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\video" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\campagne" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\creations_personnages" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Aidedejeu" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img\monster" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage\image" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\creations_personnages\pdf" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="" />
+      <created>1617653683288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617653683288</updated>
+      <workItem from="1617653684537" duration="2431000" />
+      <workItem from="1620635179612" duration="20786000" />
+      <workItem from="1620716301458" duration="23020000" />
+      <workItem from="1620764682271" duration="62000" />
+      <workItem from="1620802686827" duration="629000" />
+      <workItem from="1620976559470" duration="2924000" />
+      <workItem from="1621235070004" duration="20136000" />
+      <workItem from="1621321224296" duration="20775000" />
+      <workItem from="1621350367988" duration="97000" />
+      <workItem from="1621408118891" duration="792000" />
+      <workItem from="1621493777618" duration="5556000" />
+      <workItem from="1621503223767" duration="490000" />
+      <workItem from="1621504432308" duration="14000" />
+      <workItem from="1621508941714" duration="2779000" />
+      <workItem from="1621511861620" duration="7584000" />
+      <workItem from="1621521530288" duration="392000" />
+      <workItem from="1621582224077" duration="1971000" />
+      <workItem from="1621586977936" duration="5840000" />
+      <workItem from="1621763685787" duration="842000" />
+      <workItem from="1621926791347" duration="22643000" />
+      <workItem from="1622012476672" duration="1367000" />
+      <workItem from="1622015554545" duration="7898000" />
+      <workItem from="1622098975628" duration="19032000" />
+      <workItem from="1622185177799" duration="406000" />
+      <workItem from="1622185766009" duration="4479000" />
+      <workItem from="1622404460546" duration="41000" />
+      <workItem from="1622443819594" duration="1699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
