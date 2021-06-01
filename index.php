@@ -85,7 +85,6 @@ if(isset($_GET['WJDR'])) {
 
             $controller = new \Controller\ResourcesController();
             $controller->story();
-
     }
 }
 else{

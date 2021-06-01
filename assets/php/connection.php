@@ -1,19 +1,21 @@
 <?php
+ini_set("display_errors", E_ALL);
 
 include "functions.php";
-require "../../Model/DB.php";
+require_once "../../Model/DB.php";
 
-if (isset($_POST["email"], $_POST["password"])) {
-    $bdd = DB::getInstance();
+if (isset($_POST["pseudo"], $_POST["password"])) {
+    $bdd = new DB();
+    $request = $bdd::getInstance();
 
-    $email = sanitize($_POST['email']);
+    $pseudo = sanitize($_POST['pseudo']);
     $password = sanitize($_POST['password']);
 
+    $request = $bdd->getDbLink();
     // I get the name of the user
-    $stmt = $bdd->prepare("SELECT * FROM witcherjdr.user WHERE email = '$email'");
-
+    $stmt = $request->prepare("SELECT * FROM user WHERE pseudo = :pseudo");
+    $stmt->bindValue(":pseudo", $pseudo);
     $stmt->execute();
-
     foreach ($stmt->fetchAll() as $user) {
         // I check that the password encrypted on my database that I retrieved using the '$ user [' password ']' loop corresponds to the password entered by the user
         if (password_verify($password, $user['password'])) {
@@ -22,7 +24,7 @@ if (isset($_POST["email"], $_POST["password"])) {
             $_SESSION['id'] = $user['id'];
             $_SESSION['pseudo'] = $user['pseudo'];
             $_SESSION['password'] = $password;
-            $_SESSION['email'] = $email;
+            $_SESSION['email'] = $user['email'];
             $_SESSION['role_fk'] = $user['role_fk'];
 
             header("Location: ../../index.php");

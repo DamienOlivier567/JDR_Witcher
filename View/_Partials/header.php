@@ -30,7 +30,6 @@
                     </ul>
                 </li>
 
-
                 <li class="nav-item has-dropdown">
                     <a href="#">Ressources</a>
                     <ul class="item-dropdown">
@@ -62,13 +61,17 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Liens </a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="/View/Liens/connect.php">Connexion/Inscription</a></li>
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="../../tchat/index.php">Vatt'Ghern-Blog</a></li>
+                            <li class="sub-item"><a href="">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
+                        }
+                        else {
+                            ?>
+                            <li class="sub-item"><a href="/View/Liens/connect.php">Connexion/Inscription</a></li>
+                        <?php
                         }
                         ?>
                         <li class="sub-item"><a href="#">Mentions Légales</a></li>
