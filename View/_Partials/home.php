@@ -68,16 +68,6 @@
                 </div>
                 <div class="bgImg"><img src="../../fichiers/resources/campagne/img/vodianoi.jpg" alt="image"></div>
             </li>
-            <li class="itemsC">
-                <div class="contents">
-                    <h1 class="leftTxtDet">Une vie de résistant</h1>
-                    <div class="textDet">
-                        <p>Les joueurs trouve un camp de résistant contre les envahisseurs Nilfgaardiens,
-                            ils doivent d’abord les aider à rassembler des ressources, défendre le camp. Puis un desastre.</p>
-                    </div>
-                </div>
-                <div class="bgImg"><img src="../../fichiers/resources/campagne/img/resistant.jpg" alt="image"></div>
-            </li>
         </ul>
     </div>
     </body>

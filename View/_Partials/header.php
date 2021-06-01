@@ -20,10 +20,16 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Aide de jeu</a>
                     <ul class="item-dropdown">
+                        <?php
+                        if (isset($_SESSION["id"])){
+                        ?>
                         <li class="sub-item"><a href="/View/Aidedejeu/charactercreation.php">Création personnages</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/characterclasse.php">Classes personnages</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/rules.php">Règles alternatives</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/help.php">Aides de jeu</a></li>
+                            <?php
+                        }
+                        ?>
                         <li class="sub-item"><a href="/View/Aidedejeu/effets.php">Effets</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/shop.php">Magasins</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/faq.php">FAQ</a></li>
