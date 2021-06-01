@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
+      <change afterPath="$PROJECT_DIR$/View/Liens/message.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Liens/tchat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Ressources/battle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Ressources/mapp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style_accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style_global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/kaermohren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/tchat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/HelpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/HelpController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/ResourcesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ResourcesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Ressources/magic.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/magic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/generator.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/generator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bestiary.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bestiary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/charactercreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charactercreation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/php/disconnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/disconnection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/aides/regles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -98,7 +108,8 @@
       <workItem from="1622185177799" duration="406000" />
       <workItem from="1622185766009" duration="4479000" />
       <workItem from="1622404460546" duration="41000" />
-      <workItem from="1622443819594" duration="23375000" />
+      <workItem from="1622443819594" duration="24783000" />
+      <workItem from="1622530568786" duration="4460000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -142,11 +153,29 @@
       <option name="project" value="LOCAL" />
       <updated>1622467925869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New Controller">
+      <created>1622471379095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1622471379095</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nouveau style du menu" />

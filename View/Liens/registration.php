@@ -39,4 +39,7 @@ if (isset($_GET['error'])){
         <p class="colorRed password">Le mot de passe doit contenir: majuscule, minuscule, chiffre, caractère spéciale, avoir minimun 8 caractères.</p>
         <input type="submit" id="submit" class="btn btn-danger" value="S'inscrire">
     </form>
+
+    <p>Pourquoi vous crée un compte ?</p>
+        <p>Ce site sera toujours en evolutions il ne sera jamis fini a 100% en vous inscrivant vous aurez aces aux nouvaute avant les autres</p>
 </main>

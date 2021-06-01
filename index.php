@@ -62,6 +62,30 @@ if(isset($_GET['WJDR'])) {
             $controller = new \Controller\HelpController();
             $controller->shop();
 
+            break;
+
+        case 'resources':
+            $controller = new \Controller\ResourcesController();
+            $controller->alchemy();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->battle();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->bestiary();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->magic();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->mapp();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->pnj();
+
+            $controller = new \Controller\ResourcesController();
+            $controller->story();
+
     }
 }
 else{

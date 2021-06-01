@@ -13,7 +13,7 @@
 <header class="header">
     <div class="container">
         <div class="wrapper">
-            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg"></h1></a>
+            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg" alt="logo"></h1></a>
         </div>
         <nav class="navbar">
             <ul class="nav-menu">
@@ -38,12 +38,12 @@
                         <li class="sub-item"><a href="/View/Ressources/bestiary.php">Bestiaire/Liste de monstre</a></li>
                         <li class="sub-item"><a href="/View/Ressources/magic.php">Magie</a></li>
                         <li class="sub-item"><a href="/View/Ressources/alchemy.php">Alchimie</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/story.php">Campagnes</a></li>
                         <?php
                         if (isset($_SESSION["id"])){
                           ?>
-                            <li class="sub-item"><a href="#">Mappemondes</a></li>
-                            <li class="sub-item"><a href="#">Battlemaps</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/story.php">Campagnes</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/mapp.php">Mappemondes</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/battle.php">Battlemaps</a></li>
                         <?php
                         }
                         ?>
@@ -68,7 +68,7 @@
                         if (isset($_SESSION["id"])){
                         ?>
                             <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
-                            <li class="sub-item"><a href="#">Kaer morhen</a></li>
+                            <li class="sub-item"><a href="/View/Liens/tchat.php">Kaer morhen</a></li>
                             <?php
                         }
                         ?>
@@ -82,7 +82,7 @@
         if (isset($_SESSION['id'])) {
             ?>
             <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?= $_SESSION['pseudo']?></p>
-            <a class="menu colorRed" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
+            <a class="menu" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
             <?php
         }
         ?>

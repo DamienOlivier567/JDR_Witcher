@@ -9,6 +9,10 @@ use Model\User\UserManager;
 class ResourcesController{
     use RenderViewTrait;
 
+    public function alchemy(){
+        $this->render('alchemy', 'Alchimie');
+    }
+
     public function bestiary(){
         $this->render('bestiary', 'Bestiaire');
     }
@@ -24,5 +28,13 @@ class ResourcesController{
 
     public function story(){
         $this->render('story', 'Campagnes');
+    }
+
+    public function battle(){
+        $this->render('battle', 'BattleMapp');
+    }
+
+    public function mapp(){
+        $this->render('mapp', 'MappMondes');
     }
 }
