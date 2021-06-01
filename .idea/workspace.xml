@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change afterPath="$PROJECT_DIR$/View/Liens/message.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Liens/tchat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Ressources/battle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/Ressources/mapp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style_accueil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style_global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/kaermohren.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/tchat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Liens/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/Kaer_mohren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style_connection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/connection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/ResourcesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ResourcesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Liens/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/connexion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/message.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/registration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/tchat.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bestiary.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bestiary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/charactercreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charactercreation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style_accueil.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style_global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/tchat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -60,18 +58,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\regles" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\video" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\campagne" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\creations_personnages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Controller" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\magic\img" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\PNJ\img" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\aidejeu\img" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\campagne\img" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\js" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Liens" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\_Partials" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\css" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Model" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,7 +107,8 @@
       <workItem from="1622185766009" duration="4479000" />
       <workItem from="1622404460546" duration="41000" />
       <workItem from="1622443819594" duration="24783000" />
-      <workItem from="1622530568786" duration="4460000" />
+      <workItem from="1622530568786" duration="7641000" />
+      <workItem from="1622538424292" duration="2861000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622471379095</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajout tchat">
+      <created>1622535417495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1622535417495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,10 +182,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Nouveau style du menu" />
     <MESSAGE value="New Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Controller" />
+    <MESSAGE value="Ajout tchat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout tchat" />
   </component>
 </project>

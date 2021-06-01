@@ -1,7 +1,5 @@
 <?php
 
-use Model\DB;
-
 include "functions.php";
 require "../../Model/DB.php";
 
@@ -30,11 +28,10 @@ if (isset($_POST["email"], $_POST["password"])) {
             header("Location: ../../index.php");
         }
         else {
-            header("Location: ../../View/connection.php?error=2");
+            header("Location: ../../View/Liens/connect.php?error=2");
         }
     }
 }
 else {
-    header("Location: ../../View/connection.php?error=3");
+    header("Location: ../../View/Liens/connect.php?error=3");
 }
-

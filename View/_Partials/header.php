@@ -62,13 +62,12 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Liens </a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="/View/Liens/connexion.php">Connexion</a></li>
-                        <li class="sub-item"><a href="/View/Liens/registration.php">Inscription</a></li>
+                        <li class="sub-item"><a href="/View/Liens/connect.php">Connexion/Inscription</a></li>
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
-                            <li class="sub-item"><a href="/View/Liens/tchat.php">Kaer morhen</a></li>
+                            <li class="sub-item"><a href="../../tchat/index.php">Vatt'Ghern-Blog</a></li>
+                            <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
                         }
                         ?>

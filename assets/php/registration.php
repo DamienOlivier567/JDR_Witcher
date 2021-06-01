@@ -1,7 +1,5 @@
 <?php
 
-use Model\DB;
-
 include "functions.php";
 require "../../Model/DB.php";
 
@@ -45,15 +43,15 @@ if (isset($_POST["pseudo"], $_POST["email"], $_POST["password"])) {
                 header("Location: /index.php?WJDR=accueil&success=0");
             }
             else {
-                header("Location: ../../View/registration.php?error=5");
+                header("Location: ../../View/Liens/connect.php?error=5");
             }
 
         }
         else {
-            header("Location: ../../View/registration.php?error=1");
+            header("Location: ../../View/Liens/connect.php?error=1");
         }
     }
 }
 else {
-    header("Location: ../../View/registration.php?error=4");
+    header("Location: ../../View/Liens/connect.php?error=4");
 }
