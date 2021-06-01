@@ -9,6 +9,7 @@
     <title>Connexion/Inscription</title>
 </head>
 <body>
+
 <?php
 require_once "../_Partials/header.php"
 ?>
@@ -24,7 +25,8 @@ require_once "../_Partials/header.php"
         <button name="buttonValidateC" id="buttonValidateC">Se connecter</button>
     </form>
 
-    <p>Pourquoi vous inscrire ? En vous inscrivant sur se site vous accéderez aux Campagne et a differents onglets du menu comme "BattleMap" ...</p>
+    <p>Pourquoi vous inscrire ? Ceci est un site qui sera toujours en evolutions !
+        En vous inscrivant sur se site vous accéderez aux Campagnes et a d'autres nouveautés qui arriveront trés vite</p>
 
     <!------- Registration Form ------------->
     <!------- Formulaire d'inscription ------------->
@@ -41,8 +43,6 @@ require_once "../_Partials/header.php"
         <button name="buttonValidateI" id="buttonValidateI">S'inscrire</button>
     </form>
 </div>
-
-
 
 <script src="../../assets/js/connection.js"></script>
 </body>
