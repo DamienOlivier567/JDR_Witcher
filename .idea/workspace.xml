@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/battlemaps/kaer_morhen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/battlemaps/temple_lilvani.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/battlemaps/white_orchard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/mappemonde/monde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/mappemonde/monde2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/mappemonde/skellige_v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/mappemonde/toussaint.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Liens/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Kaer_mohren.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/php/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/connection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/resources/mappemonde" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -51,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\mappemonde" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\battlemaps" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\regles" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\video" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\classe_personnage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\js" />
@@ -101,7 +103,7 @@
       <workItem from="1622404460546" duration="41000" />
       <workItem from="1622443819594" duration="24783000" />
       <workItem from="1622530568786" duration="7641000" />
-      <workItem from="1622538424292" duration="9408000" />
+      <workItem from="1622538424292" duration="11992000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622541416264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Nouveaute Style">
+      <created>1622551137799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622551137799</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +198,7 @@
     <MESSAGE value="New Controller" />
     <MESSAGE value="Ajout tchat" />
     <MESSAGE value="Nouveaute Aidedejeu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nouveaute Aidedejeu" />
+    <MESSAGE value="Nouveaute Style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nouveaute Style" />
   </component>
 </project>

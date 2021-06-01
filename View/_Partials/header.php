@@ -64,7 +64,7 @@
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="">Vatt'Ghern-Blog</a></li>
+                            <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
                         }
@@ -83,7 +83,7 @@
         <?php
         if (isset($_SESSION['id'])) {
             ?>
-            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?= $_SESSION['pseudo']?></p>
+            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?php echo $_SESSION['pseudo']?></p>
             <a class="menu" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
             <?php
         }

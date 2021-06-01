@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../assets/css/style_connection.css">
-    <title>Connexion / Inscription</title>
+    <title>Connexion/Inscription</title>
 </head>
 <body>
 <?php
@@ -24,6 +24,8 @@ require_once "../_Partials/header.php"
         <button name="buttonValidateC" id="buttonValidateC">Se connecter</button>
     </form>
 
+    <p>Pourquoi vous inscrire ? En vous inscrivant sur se site vous accéderez aux Campagne et a differents onglets du menu comme "BattleMap" ...</p>
+
     <!------- Registration Form ------------->
     <!------- Formulaire d'inscription ------------->
     <form action="../../assets/php/registration.php" method="POST">
@@ -39,6 +41,8 @@ require_once "../_Partials/header.php"
         <button name="buttonValidateI" id="buttonValidateI">S'inscrire</button>
     </form>
 </div>
+
+
 
 <script src="../../assets/js/connection.js"></script>
 </body>

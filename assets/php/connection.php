@@ -1,5 +1,4 @@
 <?php
-ini_set("display_errors", E_ALL);
 
 include "functions.php";
 require_once "../../Model/DB.php";
