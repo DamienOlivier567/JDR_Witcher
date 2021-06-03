@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-}
-
-body{
-    background: #262626;
-}
-
-.menu{
-    position: relative;
-    width: 100%;  height: 100vh;
-}
-
 .menu ul{
     position: relative;
     width: 100%;  height: 100%;

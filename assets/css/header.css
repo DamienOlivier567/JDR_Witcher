@@ -59,6 +59,7 @@ a {
 }
 
 .item-dropdown{
+    transition: z-index;
     position: absolute;
     margin: 0.5rem 0;
     padding: 0;
@@ -87,6 +88,10 @@ i.fas {
 a {
     color: white;
     padding-bottom: 1rem;
+}
+
+#pseudo{
+    color: white;
 }
 
 

@@ -42,5 +42,6 @@ require_once "../_Partials/header.view.php"
     </form>
 </div>
 
+<script src="../../assets/js/connection.js"></script>
 </body>
 </html>

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -15,6 +18,7 @@
         <div class="wrapper">
             <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg" alt="logo"></h1></a>
         </div>
+
         <nav class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item has-dropdown">
@@ -64,7 +68,7 @@
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="#">Supprimer Mon Compte</a></li>
+                            <li class="sub-item"><a href="#">Mon Compte</a></li>
                             <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
@@ -94,6 +98,3 @@
 
 </body>
 </html>
-
-
-
