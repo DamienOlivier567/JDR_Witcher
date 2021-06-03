@@ -146,7 +146,7 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Classe Doppler</h3>
                     <p>
-
+                        Vous ne les voyez pas mais eux si
                     </p>
                     <p><a target='blank' href="../../fichiers/aides/classe_personnage/pdf/doppler.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>

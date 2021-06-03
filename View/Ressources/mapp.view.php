@@ -65,6 +65,7 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Skellige</h3>
                     <p>
+                        Carte des iles Skellige
                     </p>
                     <p><a target='blank' href="../../fichiers/resources/mappemonde/skellige_v1.png" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
@@ -83,7 +84,7 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Toussaint</h3>
                     <p>
-
+                        Carte de region de Toussaint
                     </p>
                     <p><a target='blank' href="../../fichiers/resources/mappemonde/toussaint.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>

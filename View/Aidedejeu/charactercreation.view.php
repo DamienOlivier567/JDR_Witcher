@@ -43,7 +43,7 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Fiche perso editable</h3>
                     <p>
-                        Feuille de personnage éditable via acrobate reader ou autre logiciel de pdf. ( 5 pages )
+                        Feuille de personnage éditable via acrobate reader ou autre logiciel de PDF. ( 5 pages )
                     </p>
                     <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/apercu_fiche_perso_dynamique.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
@@ -79,8 +79,7 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Aide à la création</h3>
                     <p>
-                        Un récapitulatif pour simplifier et rassembler les informations de création de personnages.
-                        ( 5 pages )
+                        Un récapitulatif pour simplifier et rassembler les informations de création de personnages. ( 5 pages )
                     </p>
                     <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/aide-création-personnage_5pages.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
@@ -98,7 +97,9 @@ require_once "../_Partials/header.view.php"
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Création Personnage par Concept</h3>
                     <p>
-                        Si pour vous un Jdr papier va plus loin que des choix de statistiques et/ou que vous êtes débutant et ne connaissez pas l’univers de The Witcher, alors cette aide à la création est faite pour vous et vos joueurs ! ( 18 pages )
+                        Si pour vous un Jdr papier va plus loin que des choix de statistiques et/ou que vous êtes débutant
+                        et ne connaissez pas l’univers de The Witcher, alors cette aide à la création est faite pour vous
+                        et vos joueurs ! ( 18 pages )
                     </p>
                     <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/creation_perso.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
                 </div>
