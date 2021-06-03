@@ -11,13 +11,12 @@
 <body>
 
 <?php
-require_once "../_Partials/header.php"
+require_once "../_Partials/header.view.php"
 ?>
 
 <div id="contains">
 
     <!------- Login form ----------->
-    <!------- Formulaire de connexion ----------->
     <form action="../../assets/php/connection.php" method="POST">
         <h2>Connexion</h2>
             <input type="text" name="pseudo" id="pseudo" placeholder="Pseudo" minlength="3" maxlength="50" required>
@@ -29,7 +28,6 @@ require_once "../_Partials/header.php"
         En vous inscrivant sur se site vous accéderez aux Campagnes et a d'autres nouveautés qui arriveront trés vite</p>
 
     <!------- Registration Form ------------->
-    <!------- Formulaire d'inscription ------------->
     <form action="../../assets/php/registration.php" method="POST">
         <h2>Inscription</h2>
             <input type="text" name="pseudoInscript" id="pseudoInscript" placeholder="Votre pseudo" minlength="2" maxlength="50" required>
@@ -44,6 +42,5 @@ require_once "../_Partials/header.php"
     </form>
 </div>
 
-<script src="../../assets/js/connection.js"></script>
 </body>
 </html>

@@ -20,29 +20,29 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Aide de jeu</a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="/View/Aidedejeu/charactercreation.php">Création personnages</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/characterclasse.php">Classes personnages</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/rules.php">Règles alternatives</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/help.php">Aides de jeu</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/effets.php">Effets</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/shop.php">Magasins</a></li>
-                        <li class="sub-item"><a href="/View/Aidedejeu/faq.php">FAQ</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/charactercreation.view.php">Création personnages</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/characterclasse.view.php">Classes personnages</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/rules.view.php">Règles alternatives</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/help.view.php">Aides de jeu</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/effets.view.php">Effets</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/shop.view.php">Magasins</a></li>
+                        <li class="sub-item"><a href="/View/Aidedejeu/faq.view.php">FAQ</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item has-dropdown">
                     <a href="#">Ressources</a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="/View/Ressources/pnj.php">Fiches PNJ</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/bestiary.php">Bestiaire/Liste de monstre</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/magic.php">Magie</a></li>
-                        <li class="sub-item"><a href="/View/Ressources/alchemy.php">Alchimie</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/pnj.view.php">Fiches PNJ</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/bestiary.view.php">Bestiaire/Liste de monstre</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/magic.view.php">Magie</a></li>
+                        <li class="sub-item"><a href="/View/Ressources/alchemy.view.php">Alchimie</a></li>
                         <?php
                         if (isset($_SESSION["id"])){
                           ?>
-                            <li class="sub-item"><a href="/View/Ressources/story.php">Campagnes</a></li>
-                            <li class="sub-item"><a href="/View/Ressources/mapp.php">Mappemondes</a></li>
-                            <li class="sub-item"><a href="/View/Ressources/battle.php">Battlemaps</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/story.view.php">Campagnes</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/mapp.view.php">Mappemondes</a></li>
+                            <li class="sub-item"><a href="/View/Ressources/battle.view.php">Battlemaps</a></li>
                         <?php
                         }
                         ?>
@@ -52,9 +52,9 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Outils </a>
                     <ul class="item-dropdown">
-                        <li class="sub-item"><a href="/View/Outils/diceroller.php">Lancer de dés</a></li>
-                        <li class="sub-item"><a href="/View/Outils/namegenerator.php">Générateur de nom</a></li>
-                        <li class="sub-item"><a href="/View/Outils/contractgenerator.php">Générateur contrat</a></li>
+                        <li class="sub-item"><a href="/View/Outils/diceroller.view.php">Lancer de dés</a></li>
+                        <li class="sub-item"><a href="/View/Outils/namegenerator.view.php">Générateur de nom</a></li>
+                        <li class="sub-item"><a href="/View/Outils/contractgenerator.view.php">Générateur contrat</a></li>
                     </ul>
                 </li>
 
@@ -71,7 +71,7 @@
                         }
                         else {
                             ?>
-                            <li class="sub-item"><a href="/View/Liens/connect.php">Connexion/Inscription</a></li>
+                            <li class="sub-item"><a href="/View/Liens/connect.view.php">Connexion/Inscription</a></li>
                         <?php
                         }
                         ?>

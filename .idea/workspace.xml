@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change afterPath="$PROJECT_DIR$/Controller/Render.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/Carnet de l'alchimiste.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/alchimist.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/carnet.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/classe_alchimiste.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/classes_alchimiste_artisan.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/liste_composants_alchimie.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Render.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Traits/RenderViewTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Traits/RenderViewTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/charactercreation.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/charactercreation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/effets.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/effets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/faq.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/faq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/help.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/help.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/rules.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/contractgenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/contractgenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/diceroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/diceroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/namegenerator.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/namegenerator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Ressources/alchemy.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/alchemy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/_Partials/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/charactercreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charactercreation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/generator.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/generator.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ancienne-page-brune-fond-espace-copie_250994-1328.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ancienne-page-brune-fond.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/bestiary.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/bestiary.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/magic.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/magic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/pnj.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/pnj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/story.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/story.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/diceroller.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/diceroller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +122,7 @@
       <workItem from="1622538424292" duration="16910000" />
       <workItem from="1622560991785" duration="214000" />
       <workItem from="1622617075405" duration="400000" />
-      <workItem from="1622620171992" duration="15227000" />
+      <workItem from="1622620171992" duration="16911000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -204,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622558498357</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Alchemy fini">
+      <created>1622711510703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622711510703</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +246,7 @@
     <MESSAGE value="Ajout tchat" />
     <MESSAGE value="Nouveaute Aidedejeu" />
     <MESSAGE value="Nouveaute Style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nouveaute Style" />
+    <MESSAGE value="Alchemy fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alchemy fini" />
   </component>
 </project>

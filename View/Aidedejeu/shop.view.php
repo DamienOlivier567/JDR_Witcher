@@ -1,5 +1,5 @@
 <?php
-require_once "../_Partials/header.php"
+require_once "../_Partials/header.view.php"
 ?>
 
 
@@ -20,7 +20,7 @@ require_once "../_Partials/header.php"
     <div class="container h-100">
         <div class="d-flex align-items-center h-100">
             <h1 class="mb-0">
-                <a style="color:white;" href="/View/Aidedejeu/shopweapons.php">
+                <a style="color:white;" href="/View/Aidedejeu/shopweapons.view.php">
                     Magasin<br/>
                     <small>Armes</small>
                 </a>
@@ -32,7 +32,7 @@ require_once "../_Partials/header.php"
     <div class="container h-100">
         <div class="d-flex align-items-center h-100">
             <h1 class="mb-0">
-                <a style="color:white;" href="/View/Aidedejeu/shoparmor.php">
+                <a style="color:white;" href="/View/Aidedejeu/shoparmor.view.php">
                     Magasin<br/>
                     <small>Armures</small>
                 </a>
@@ -56,7 +56,7 @@ require_once "../_Partials/header.php"
     <div class="container h-100">
         <div class="d-flex align-items-center h-100">
             <h1 class="mb-0">
-                <a style="color:white;" href="shoppotion.php">
+                <a style="color:white;" href="shoppotion.view.php">
                     Magasin<br/>
                     <small>Potions</small>
                 </a>

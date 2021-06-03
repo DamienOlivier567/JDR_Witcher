@@ -13,7 +13,7 @@
 <body>
 
     <?php
-        require_once "header.php";
+        require_once "header.view.php";
     ?>
 
     <h1 id="title">Les Histoires</h1>

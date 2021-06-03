@@ -14,7 +14,7 @@ class HelpController{
      */
     public function characterclasse() {
         $this->render('characterclasse', 'Classe Personnage');
-        header("Location: ../../View/Aidedejeu/characterclasse.php");
+        header("Location: ../../View/Aidedejeu/characterclasse.view.php");
     }
 
     public function charactercreation(){
@@ -24,26 +24,26 @@ class HelpController{
 
     public function effects(){
         $this->render('effets', 'Effets');
-        header("Location: ../../View/Aidedejeu/effets.php");
+        header("Location: ../../View/Aidedejeu/effets.view.php");
     }
 
     public function faq(){
         $this->render('faq', 'FAQ');
-        header("Location: ../../View/Aidedejeu/faq.php");
+        header("Location: ../../View/Aidedejeu/faq.view.php");
     }
 
     public function help(){
         $this->render('help', 'Aides');
-        header("Location: ../../View/Aidedejeu/help.php");
+        header("Location: ../../View/Aidedejeu/help.view.php");
     }
 
     public function rules(){
         $this->render('rules', 'Règles alternative');
-        header("Location: ../../View/Aidedejeu/rules.php");
+        header("Location: ../../View/Aidedejeu/rules.view.php");
     }
 
     public function shop(){
         $this->render('shop', 'Magasins');
-        header("Location: ../../View/Aidedejeu/shop.php");
+        header("Location: ../../View/Aidedejeu/shop.view.php");
     }
 }

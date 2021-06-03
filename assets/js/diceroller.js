@@ -1,5 +1,3 @@
-
-
 const rolls = document.querySelectorAll('div[id*="Roll"]');
 let d4roll = document.getElementById('d4Roll');
 let d6roll = document.getElementById('d6Roll');

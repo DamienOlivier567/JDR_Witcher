@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-require_once "../_Partials/header.php"
+require_once "../_Partials/header.view.php"
 ?>
 
 <div class="row">

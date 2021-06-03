@@ -1,5 +1,5 @@
 <?php
-require_once "../_Partials/header.php"
+require_once "../_Partials/header.view.php"
 ?>
 
 <!doctype html>
@@ -18,7 +18,7 @@ require_once "../_Partials/header.php"
 
     <a class="title">
 
-        <a href="shop.php" <h1>Magasins </h1></a>
+        <a href="shop.view.php" <h1>Magasins </h1></a>
 
 </div>
 

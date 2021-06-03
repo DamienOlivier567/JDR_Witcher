@@ -18,7 +18,7 @@ class ToolsController{
     }
 
     public function name(){
-        $this->location('namegenerator', 'Generateur de non');
+        $this->render('namegenerator', 'Generateur de non');
     }
 
     public function dice(){

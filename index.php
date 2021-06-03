@@ -1,21 +1,19 @@
 <?php
 session_start();
 
-require_once "./View/_Partials/home.php";
-require_once "./View/_Partials/header.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "./View/_Partials/home.view.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "./View/_Partials/header.view.php";
 
-require_once './Model/Entity/User.php';
-require_once './Model/Entity/Story.php';
-require_once './Model/Entity/Role.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/User.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/Story.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/Role.php';
 
-require_once './Model/DB.php';
-require_once './Model/Manager/Traits/ManagerTrait.php';
-require_once './Controller/Traits/RenderViewTrait.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/DB.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/Traits/ManagerTrait.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Controller/Traits/RenderViewTrait.php';
 
-require_once './Model/Manager/StoryManager.php';
-require_once './Model/Manager/UserManager.php';
-// controller inclusion
-require_once $_SERVER['DOCUMENT_ROOT'] . "/Controller/Render.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/StoryManager.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/UserManager.php';
 
 use Controller\HomeController;
 use Controller\StoryController;

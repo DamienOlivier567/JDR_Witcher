@@ -29,10 +29,10 @@ if (isset($_POST["pseudo"], $_POST["password"])) {
             header("Location: ../../index.php");
         }
         else {
-            header("Location: ../../View/Liens/connect.php?error=2");
+            header("Location: ../../View/Liens/connect.view.php?error=2");
         }
     }
 }
 else {
-    header("Location: ../../View/Liens/connect.php?error=3");
+    header("Location: ../../View/Liens/connect.view.php?error=3");
 }
