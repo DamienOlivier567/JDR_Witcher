@@ -20,16 +20,10 @@
                 <li class="nav-item has-dropdown">
                     <a href="#">Aide de jeu</a>
                     <ul class="item-dropdown">
-                        <?php
-                        if (isset($_SESSION["id"])){
-                        ?>
                         <li class="sub-item"><a href="/View/Aidedejeu/charactercreation.php">Création personnages</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/characterclasse.php">Classes personnages</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/rules.php">Règles alternatives</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/help.php">Aides de jeu</a></li>
-                            <?php
-                        }
-                        ?>
                         <li class="sub-item"><a href="/View/Aidedejeu/effets.php">Effets</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/shop.php">Magasins</a></li>
                         <li class="sub-item"><a href="/View/Aidedejeu/faq.php">FAQ</a></li>
@@ -70,6 +64,7 @@
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
+                            <li class="sub-item"><a href="#">Supprimer Mon Compte</a></li>
                             <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php
@@ -89,12 +84,11 @@
         <?php
         if (isset($_SESSION['id'])) {
             ?>
-            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?php echo $_SESSION['pseudo']?></p>
+            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?php $_SESSION['pseudo']?></p>
             <a class="menu" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
             <?php
         }
         ?>
-
     </div>
 </header>
 

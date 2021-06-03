@@ -16,25 +16,53 @@ require_once "../_Partials/header.php"
 </head>
 <body>
 
-<div class="menu">
-    <ul>
-        <li id="weapons">
-            <a href="shopweapons.php">Armes</a>
-
-        </li>
-        <li id="armor">
-            <a href="shoparmor.php">Armures</a>
-
-        </li>
-        <li id="equipment">
-            <a href="#">Equipements</a>
-
-        </li>
-        <li id="potions">
-            <a href="shoppotion.php">Potions</a>
-
-        </li>
-    </ul>
+<div class="banner" style="background-image:url(/assets/img/the_witcher_3armes.png)">
+    <div class="container h-100">
+        <div class="d-flex align-items-center h-100">
+            <h1 class="mb-0">
+                <a style="color:white;" href="/View/Aidedejeu/shopweapons.php">
+                    Magasin<br/>
+                    <small>Armes</small>
+                </a>
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background-image:url(/assets/img/armures_witcher.jpg)">
+    <div class="container h-100">
+        <div class="d-flex align-items-center h-100">
+            <h1 class="mb-0">
+                <a style="color:white;" href="/View/Aidedejeu/shoparmor.php">
+                    Magasin<br/>
+                    <small>Armures</small>
+                </a>
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background-image:url(/assets/img/equipement.jpeg)">
+    <div class="container h-100">
+        <div class="d-flex align-items-center h-100">
+            <h1 class="mb-0">
+                <a style="color:white;" href="">
+                    Magasin<br/>
+                    <small>Equipements</small>
+                </a>
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="banner" style="background-image:url(/assets/img/potions.jpg)">
+    <div class="container h-100">
+        <div class="d-flex align-items-center h-100">
+            <h1 class="mb-0">
+                <a style="color:white;" href="shoppotion.php">
+                    Magasin<br/>
+                    <small>Potions</small>
+                </a>
+            </h1>
+        </div>
+    </div>
 </div>
 </body>
 </html>

@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
+      <change afterPath="$PROJECT_DIR$/Controller/Render.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/Carnet de l'alchimiste.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/alchimist.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/carnet.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/classe_alchimiste.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/classes_alchimiste_artisan.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fichiers/resources/Alchimi/liste_composants_alchimie.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Liens/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/alchemy.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/alchemy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/charactercreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charactercreation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/generator.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/generator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ancienne-page-brune-fond-espace-copie_250994-1328.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ancienne-page-brune-fond.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/resources/mappemonde" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/resources/Alchimi" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -44,18 +58,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\mappemonde" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\battlemaps" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\aides\regles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\js" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Liens" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\_Partials" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\css" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Model" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +108,10 @@
       <workItem from="1622404460546" duration="41000" />
       <workItem from="1622443819594" duration="24783000" />
       <workItem from="1622530568786" duration="7641000" />
-      <workItem from="1622538424292" duration="16290000" />
+      <workItem from="1622538424292" duration="16910000" />
+      <workItem from="1622560991785" duration="214000" />
+      <workItem from="1622617075405" duration="400000" />
+      <workItem from="1622620171992" duration="15227000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -180,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622555594270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Nouveaute Style">
+      <created>1622558498357</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622558498357</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

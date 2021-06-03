@@ -2,6 +2,7 @@
 session_start();
 
 require_once "./View/_Partials/home.php";
+require_once "./View/_Partials/header.php";
 
 require_once './Model/Entity/User.php';
 require_once './Model/Entity/Story.php';
@@ -13,7 +14,8 @@ require_once './Controller/Traits/RenderViewTrait.php';
 
 require_once './Model/Manager/StoryManager.php';
 require_once './Model/Manager/UserManager.php';
-
+// controller inclusion
+require_once $_SERVER['DOCUMENT_ROOT'] . "/Controller/Render.php";
 
 use Controller\HomeController;
 use Controller\StoryController;

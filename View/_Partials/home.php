@@ -19,7 +19,7 @@
     <h1 id="title">Les Histoires</h1>
 
     <div class="scrolly">
-        <h2 class="topT">Le Top des Histoires</h2>
+        <h2 class="topT">Le Top des Histoires (Retrouver les dans l'onglet Campagne si vous  posedez un compte)</h2>
         <ul class="carouselPre">
             <li class="itemsC">
                 <div class="contents">
@@ -70,6 +70,7 @@
             </li>
         </ul>
     </div>
+
     </body>
 
 </html>
