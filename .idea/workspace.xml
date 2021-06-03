@@ -4,8 +4,6 @@
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Ressources/battle.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/battle.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Ressources/mapp.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/mapp.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shop.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/resources/Alchimi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fichiers/resources/mappemonde" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -46,8 +44,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\mappemonde" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\battlemaps" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
@@ -99,7 +97,7 @@
       <workItem from="1622538424292" duration="16910000" />
       <workItem from="1622560991785" duration="214000" />
       <workItem from="1622617075405" duration="400000" />
-      <workItem from="1622620171992" duration="24053000" />
+      <workItem from="1622620171992" duration="26356000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -213,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622721434563</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Battlemaps et Mapmonde fini">
+      <created>1622723365369</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622723365369</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +243,7 @@
     <MESSAGE value="Nouveaute Aidedejeu" />
     <MESSAGE value="Nouveaute Style" />
     <MESSAGE value="Alchemy fini" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alchemy fini" />
+    <MESSAGE value="Battlemaps et Mapmonde fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Battlemaps et Mapmonde fini" />
   </component>
 </project>

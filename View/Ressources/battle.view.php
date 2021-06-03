@@ -10,6 +10,7 @@
     <title>BattleMaps</title>
 </head>
 <body>
+
 <?php
 require_once "../_Partials/header.view.php"
 ?>
@@ -72,7 +73,6 @@ require_once "../_Partials/header.view.php"
             </div>
         </div>
     </div>
-
 
 </div>
 
