@@ -92,7 +92,6 @@ require_once "../_Partials/header.view.php"
         </div>
     </div>
 
-
 </div>
 
 </body>
