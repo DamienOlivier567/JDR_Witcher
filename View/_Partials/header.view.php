@@ -68,7 +68,7 @@ session_start();
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="#">Mon Compte</a></li>
+                            <li class="sub-item"><a href="/View/Liens/deleateacount.php">Supprimer mon Compte</a></li>
                             <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
                             <li class="sub-item"><a href="#">Kaer morhen</a></li>
                             <?php

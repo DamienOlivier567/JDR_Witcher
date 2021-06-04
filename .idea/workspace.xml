@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change afterPath="$PROJECT_DIR$/Controller/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Manager/CommentManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/HelpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/HelpController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/LinkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/LinkController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/ResourcesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ResourcesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/Traits/RenderViewTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/Traits/RenderViewTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Manager/StoryManager.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/Ressources/battle.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/battle.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Entity/Story.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/View/Ressources/mapp.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/mapp.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +54,11 @@
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Model\Manager" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\js" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Liens" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\_Partials" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +103,7 @@
       <workItem from="1622620171992" duration="28989000" />
       <workItem from="1622731148852" duration="609000" />
       <workItem from="1622732288368" duration="348000" />
-      <workItem from="1622789520333" duration="2124000" />
+      <workItem from="1622789520333" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -253,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622729507873</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Modif des Controllers">
+      <created>1622791930143</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622791930144</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +278,7 @@
     <MESSAGE value="Nouveaute Style" />
     <MESSAGE value="Alchemy fini" />
     <MESSAGE value="Battlemaps et Mapmonde fini" />
-    <option name="LAST_COMMIT_MESSAGE" value="Battlemaps et Mapmonde fini" />
+    <MESSAGE value="Modif des Controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif des Controllers" />
   </component>
 </project>

@@ -3,7 +3,6 @@
 namespace Controller;
 
 use Controller\Traits\RenderViewTrait;
-use Model\Manager\StoryManager;
 use Model\User\UserManager;
 
 class ResourcesController{

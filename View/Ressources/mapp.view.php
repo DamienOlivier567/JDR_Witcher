@@ -17,6 +17,7 @@ require_once "../_Partials/header.view.php"
     <div class="col-lg-6">
         <!-- DOCUMENT -->
         <div class="mb-5 mb-md-4">
+
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
                     <a target='blank'  href="../../fichiers/resources/mappemonde/monde.jpg">
