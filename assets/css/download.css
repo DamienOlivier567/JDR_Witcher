@@ -41,11 +41,6 @@
         max-width: 100%
     }
 
-    .row-cols-md-6 > * {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%
-    }
-
     .col-md-auto {
         flex: 0 0 auto;
         width: auto;
@@ -73,11 +68,6 @@
         flex-basis: 0;
         flex-grow: 1;
         max-width: 100%
-    }
-
-    .row-cols-lg-6 > * {
-        flex: 0 0 16.66667%;
-        max-width: 16.66667%
     }
 
     .col-lg-auto {
