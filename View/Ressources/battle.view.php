@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/351e9300a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../assets/css/charactercreation.css">
-    <title>BattleMaps</title>
+    <title><?= $title ?></title>
 </head>
 <body>
 

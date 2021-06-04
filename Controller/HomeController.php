@@ -8,7 +8,7 @@ class HomeController {
 use RenderViewTrait;
 
     public function showHome(){
-        $this->render("home", "home");
+        $this->render("home.view", "home", []);
     }
 
 }

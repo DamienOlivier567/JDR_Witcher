@@ -11,6 +11,6 @@ class LinkController{
     use RenderViewTrait;
 
     public function connect(){
-        $this->render('connect', 'Connexion/Inscription');
+        $this->render('connect.view', 'Connexion/Inscription');
     }
 }
