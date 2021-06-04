@@ -1,6 +1,7 @@
 body{
     background-image: url("../img/fond-epee.png");
 }
+
 .table{
     display: flex;
     justify-content: center;
@@ -15,7 +16,6 @@ h1{
     position: relative;
 
 }
-
 
 table{
     width: 90vw;
@@ -32,7 +32,6 @@ table thead tr td{
     padding: 10px;
 }
 
-
 table tbody{
     background-color: #eee;
     color: #111;
@@ -42,7 +41,6 @@ table tbody{
 table tbody tr td{
     padding: 10px 20px;
 }
-
 
 table tbody .control{
     display: inline-block;

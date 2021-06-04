@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/charactercreation.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/charactercreation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/download.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/shopweapons.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shoparticles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,7 @@
       <workItem from="1622620171992" duration="28989000" />
       <workItem from="1622731148852" duration="609000" />
       <workItem from="1622732288368" duration="348000" />
-      <workItem from="1622789520333" duration="7730000" />
+      <workItem from="1622789520333" duration="8723000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -257,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622796077811</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Responsive">
+      <created>1622798175631</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622798175631</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
