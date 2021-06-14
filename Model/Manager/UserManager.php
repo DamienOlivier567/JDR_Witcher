@@ -3,12 +3,10 @@
 namespace Model\User;
 
 use Model\DB;
+
 use Model\Entity\User;
-use Model\Manager\Traits\ManagerTrait;
 
 class UserManager {
-
-    use ManagerTrait;
 
     /**
      * Return a user based on id.
@@ -16,7 +14,10 @@ class UserManager {
      * @return User
      */
     public function getUser(int $id): User {
-        $request = DB::getInstance()->prepare("SELECT * FROM witcherjdr.user WHERE id = :id");
+        $DB = new DB();
+        $sql = $DB::getInstance();
+        $sql = $DB->getDbLink();
+        $request = $sql->prepare("SELECT * FROM witcherjdr.user WHERE id = :id");
         $request->bindValue(':id', $id);
         $request->execute();
         $user_data = $request->fetch();
@@ -47,4 +48,41 @@ class UserManager {
         }
         return $users;
     }
+
+
+
+    // If user's Id is null or equal to 0, that's an insert into DB
+    public function saveUser(User $user)
+    {
+        if ($user->getId() === 0 || $user->getId() == null) {
+            $request = DB::getInstance()->prepare("
+        INSERT INTO user(pseudo, password, email, role_fk) VALUES (:pseudo, :password, :email,:role_fk)
+        ");
+
+            $request->bindValue(':pseudo', $user->getPseudo());
+            $request->bindValue(':password', password_hash($user->getPassword(), PASSWORD_DEFAULT));
+            $request->bindValue(':email', $user->getEmail());
+            $request->bindValue(':role_fk', $user->getRoleFk());
+
+            $request->execute();
+
+            if ($request) {
+                echo "User saved in DB";
+            }
+        }
+    }
+    //Deleted User from DB
+    public function delUser(User $user) {
+        $request = DB::getInstance()->prepare("
+        DELETE FROM user WHERE id = :id;
+        ");
+        $request->bindValue('id', $user->getId());
+
+        $result = $request->execute();
+        if ($result) {
+            echo "User supprimé";
+        }
+    }
+
+
 }

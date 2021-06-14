@@ -9,14 +9,14 @@ session_start();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/351e9300a0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../assets/css/header.css" xmlns="http://www.w3.org/1999/html">
-    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/style.css" xmlns="http://www.w3.org/1999/html">
+    <title><?= $title ?></title>
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="wrapper">
-            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg" alt="logo"></h1></a>
+            <a href="../../index.php" <h1 class="logo"><img src="../../assets/img/logo.jpg" alt="logo"></h1></>
         </div>
 
         <nav class="navbar">
@@ -68,9 +68,8 @@ session_start();
                         <?php
                         if (isset($_SESSION["id"])){
                         ?>
-                            <li class="sub-item"><a href="/View/Liens/deleateacount.php">Supprimer mon Compte</a></li>
-                            <li class="sub-item"><a href="#">Vatt'Ghern-Blog</a></li>
-                            <li class="sub-item"><a href="#">Kaer morhen</a></li>
+                            <li class="sub-item"><a href="/View/Liens/deleteUser.php">Supprimer mon Compte</a></li>
+                            <li class="sub-item"><a href="https://discord.gg/2N2fTBwp">Kaer morhen</a></li>
                             <?php
                         }
                         else {
@@ -79,7 +78,7 @@ session_start();
                         <?php
                         }
                         ?>
-                        <li class="sub-item"><a href="#">Mentions Légales</a></li>
+                        <li class="sub-item"><a href="/View/Liens/legalnotice.php">Mentions Légales</a></li>
                     </ul>
                 </li>
             </ul>
@@ -88,7 +87,6 @@ session_start();
         <?php
         if (isset($_SESSION['id'])) {
             ?>
-            <p class="menu" id="pseudo"><i class="fas fa-user-circle"></i><?php $_SESSION['pseudo']?></p>
             <a class="menu" href="../../assets/php/disconnection.php"><i class="fas fa-sign-out-alt"></i></a>
             <?php
         }

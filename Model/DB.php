@@ -1,4 +1,10 @@
 <?php
+
+namespace Model;
+
+use PDO;
+use PDOException;
+
 class DB{
 
     private string $host = 'localhost';
@@ -11,7 +17,6 @@ class DB{
 
     /**
      * Addition of the return of the PDO connection in the dbLink variable
-     * Ajout du retour de la connexion PDO dans la variable dbLink
      */
     public function __construct()
     {
@@ -45,7 +50,6 @@ class DB{
 
     /**
      * Checking if the $dbLink variable is empty and returning it
-     * Vérifier si la variable $ dbLink est vide et la renvoyer
      * @return PDO|null return of the dbLink variable
      */
     public function getDbLink(): ?PDO{
@@ -57,11 +61,20 @@ class DB{
     }
 
     /**
+     * Protection against code injection
+     * @param $string
+     * @return string
+     */
+    public function cleanInput($string) {
+        $string = strip_tags($string);
+        $string = addslashes($string);
+        return trim($string);
+    }
+
+    /**
      * We prevent letting other developers clone the object
      * to make sure that we only have one instance of the db connection.
-     *
-     * Nous évitons de laisser d'autres développeurs cloner l'objet
-     * pour nous assurer que nous n'avons qu'une seule instance de la connexion db.
      */
     public function __clone() {}
+
 }

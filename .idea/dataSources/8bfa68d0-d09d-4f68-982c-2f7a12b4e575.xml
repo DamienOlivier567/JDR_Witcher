@@ -832,190 +832,102 @@ SELECT|sys.sys_config
       <ObjectGrants>ALL PRIVILEGES!
 </ObjectGrants>
     </user>
-    <table id="260" parent="34" name="comment">
+    <table id="260" parent="34" name="message">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="261" parent="34" name="message">
+    <table id="261" parent="34" name="role">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="262" parent="34" name="role">
+    <table id="262" parent="34" name="user">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="263" parent="34" name="story">
-      <Engine>InnoDB</Engine>
-    </table>
-    <table id="264" parent="34" name="user">
-      <Engine>InnoDB</Engine>
-    </table>
-    <column id="265" parent="260" name="id">
+    <column id="263" parent="260" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="266" parent="260" name="title">
+    <column id="264" parent="260" name="message">
       <Position>2</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="267" parent="260" name="content">
-      <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="268" parent="260" name="date">
+    <column id="265" parent="260" name="user_fk">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="260" name="date">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="269" parent="260" name="user_fk">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <index id="270" parent="260" name="user_fk">
+    <index id="267" parent="260" name="user_fk">
       <ColNames>user_fk</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="271" parent="260" name="PRIMARY">
+    <key id="268" parent="260" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="272" parent="260" name="comment_ibfk_1">
+    <foreign-key id="269" parent="260" name="message_ibfk_1">
       <ColNames>user_fk</ColNames>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="273" parent="261" name="id">
+    <column id="270" parent="261" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="274" parent="261" name="message">
-      <Position>2</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="275" parent="261" name="user_fk">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="276" parent="261" name="date">
-      <Position>4</Position>
-      <DataType>date|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <index id="277" parent="261" name="user_fk">
-      <ColNames>user_fk</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="278" parent="261" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="279" parent="261" name="message_ibfk_1">
-      <ColNames>user_fk</ColNames>
-      <RefTableName>user</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="280" parent="262" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>null</SequenceIdentity>
-    </column>
-    <column id="281" parent="262" name="role">
+    <column id="271" parent="261" name="role">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="282" parent="262" name="PRIMARY">
+    <key id="272" parent="261" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="283" parent="263" name="id">
+    <column id="273" parent="262" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="284" parent="263" name="title">
+    <column id="274" parent="262" name="pseudo">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="285" parent="263" name="content">
-      <Position>3</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="286" parent="263" name="picture">
-      <Position>4</Position>
-      <DataType>text|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="287" parent="263" name="user_fk">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <index id="288" parent="263" name="user_fk">
-      <ColNames>user_fk</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="289" parent="263" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="290" parent="263" name="story_ibfk_1">
-      <ColNames>user_fk</ColNames>
-      <RefTableName>user</RefTableName>
-      <RefColNames>id</RefColNames>
-      <OnUpdate>cascade</OnUpdate>
-      <OnDelete>cascade</OnDelete>
-    </foreign-key>
-    <column id="291" parent="264" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>null</SequenceIdentity>
-    </column>
-    <column id="292" parent="264" name="pseudo">
-      <Position>2</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="293" parent="264" name="email">
+    <column id="275" parent="262" name="email">
       <Position>3</Position>
       <DataType>varchar(70)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="294" parent="264" name="password">
+    <column id="276" parent="262" name="password">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="295" parent="264" name="role_fk">
+    <column id="277" parent="262" name="role_fk">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="296" parent="264" name="role_fk">
+    <index id="278" parent="262" name="role_fk">
       <ColNames>role_fk</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="297" parent="264" name="PRIMARY">
+    <key id="279" parent="262" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="298" parent="264" name="user_ibfk_1">
+    <foreign-key id="280" parent="262" name="user_ibfk_1">
       <ColNames>role_fk</ColNames>
       <RefTableName>role</RefTableName>
       <RefColNames>id</RefColNames>

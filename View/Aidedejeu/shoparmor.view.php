@@ -2,38 +2,28 @@
 require_once "../_Partials/header.view.php"
 ?>
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../assets/css/shoparticles.css">
-    <title>Magasins</title>
-</head>
-<body>
+
 <div class="container table">
 
     <a class="title">
 
-        <a href="shop.view.php" <h1>Magasins </h1></a>
+        <a id="title" href="shop.view.php" <i class="fas fa-arrow-left"></i></a>
 
 </div>
 
 <table>
     <!--header-->
+
     <thead>
     <tr>
-
-        <td>Nom</td>
-        <td>Catégorie</td>
-        <td>Effet</td>
-        <td>Poids</td>
-        <td>Prix</td>
-        <td>Race</td>
-        <td>Descriptions</td>
-        <td>Craft</td>
+        <th scope="col">Nom</th>
+        <th scope="col">Catégorie</th>
+        <th scope="col">Effet</th>
+        <th scope="col">Poids</th>
+        <th scope="col">Prix</th>
+        <th scope="col">Race</th>
+        <th scope="col">Descriptions</th>
+        <th scope="col">Craft</th>
     </tr>
     </thead>
 
@@ -153,6 +143,3 @@ require_once "../_Partials/header.view.php"
 
 </table>
 
-</div>
-</body>
-</html>

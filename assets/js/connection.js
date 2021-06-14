@@ -2,13 +2,11 @@ let container = document.getElementById('contains');
 let pattern = /^[^ ]+@[^ ]+.[a-z]{2,3}$/;
 
 //Login form
-//Formulaire de connexion
 let pseudo = document.getElementById('pseudo');
 let password = document.getElementById('password');
 let btnConnexion = document.getElementById('buttonValidateC');
 
 //Registration Form
-//Formulaire d'inscription
 let pseudoI = document.getElementById('pseudoInscript');
 let emailI = document.getElementById('emailInscript');
 let passwordI = document.getElementById('passwordInscript');

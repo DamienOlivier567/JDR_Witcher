@@ -2,6 +2,7 @@
 
 include "functions.php";
 require_once "../../Model/DB.php";
+use Model\DB;
 
 if (isset($_POST["pseudo"], $_POST["password"])) {
     $bdd = new DB();
@@ -16,7 +17,8 @@ if (isset($_POST["pseudo"], $_POST["password"])) {
     $stmt->bindValue(":pseudo", $pseudo);
     $stmt->execute();
     foreach ($stmt->fetchAll() as $user) {
-        // I check that the password encrypted on my database that I retrieved using the '$ user [' password ']' loop corresponds to the password entered by the user
+        // I check that the password encrypted on my database that I retrieved using the '$ user [' password ']'
+        // loop corresponds to the password entered by the user
         if (password_verify($password, $user['password'])) {
             // If the 2 mdp correspond then we open the session and we store the user's data in a session.
             session_start();

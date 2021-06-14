@@ -4,20 +4,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "./View/_Partials/home.view.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "./View/_Partials/header.view.php";
 
 require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/User.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/Story.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Entity/Role.php';
 
 require_once $_SERVER['DOCUMENT_ROOT'] . './Model/DB.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/Traits/ManagerTrait.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . './Controller/Traits/RenderViewTrait.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . './Controller/Traits/RenderViewTraits.php';
 
-require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/StoryManager.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . './Model/Manager/UserManager.php';
 
 use Controller\HomeController;
 use Controller\ToolsController;
 use Controller\HelpController;
 use Controller\ResourcesController;
+use Controller\UsersController;
 
 if(isset($_GET['WJDR'])) {
     //Then, the user requests an action to be performed.
@@ -82,6 +80,15 @@ if(isset($_GET['WJDR'])) {
 
             $controller = new ResourcesController();
             $controller->story();
+
+            break;
+
+        case 'users':
+            $controller = new UsersController();
+            $controller->connect();
+
+            $controller = new UsersController();
+            $controller->delete();
     }
 }
 else{

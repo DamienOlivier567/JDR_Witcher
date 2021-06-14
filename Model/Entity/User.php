@@ -20,7 +20,7 @@ class User {
      */
     public function __construct(?int $role_fk = null, string $pseudo = null, string $email = null, string $password = null, ?int $id = null) {
         $this->id = $id;
-        $this->username = $pseudo;
+        $this->pseudo = $pseudo;
         $this->email = $email;
         $this->password = $password;
         $this->role_fk = $role_fk;
@@ -95,4 +95,5 @@ class User {
     public function setRoleFk(?int $role_fk): void {
         $this->role_fk = $role_fk;
     }
+
 }

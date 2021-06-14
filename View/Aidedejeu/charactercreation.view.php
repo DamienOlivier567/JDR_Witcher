@@ -1,15 +1,4 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../assets/css/download.css">
-    <script src="https://kit.fontawesome.com/351e9300a0.js" crossorigin="anonymous"></script>
-    <title>Creations de personnage</title>
-</head>
-<body>
+
 <?php
 require_once "../_Partials/header.view.php"
 ?>
@@ -20,14 +9,16 @@ require_once "../_Partials/header.view.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/fiche_perso_vierge.pdf"><img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/apercu_fiche_perso_officiel.PNG" alt=""></a>
+                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/fiche_perso_vierge.pdf">
+                        <img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/apercu_fiche_perso_officiel.PNG" alt="ficheperso"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Fiche Personnage vierge.</h3>
                     <p>
                         La fiche de personnage vierge. ( 5 pages )
                     </p>
-                    <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/fiche_perso_vierge.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/fiche_perso_vierge.pdf" class="btn btn-sm btn-danger">
+                            <i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -38,14 +29,16 @@ require_once "../_Partials/header.view.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/apercu_fiche_perso_dynamique.pdf"><img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/apercu_fiche_perso_dynamique.PNG" alt=""></a>
+                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/apercu_fiche_perso_dynamique.pdf">
+                        <img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/apercu_fiche_perso_dynamique.PNG" alt="fichepersodynamique"></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Fiche perso editable</h3>
                     <p>
                         Feuille de personnage éditable via acrobate reader ou autre logiciel de PDF. ( 5 pages )
                     </p>
-                    <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/apercu_fiche_perso_dynamique.pdf" class="btn btn-sm btn-danger"><i class="fas fa-download"></i></a></p>
+                    <p><a target='blank' href="../../fichiers/aides/creations_personnages/pdf/apercu_fiche_perso_dynamique.pdf" class="btn btn-sm btn-danger">
+                            <i class="fas fa-download"></i></a></p>
                 </div>
             </div>
         </div>
@@ -56,7 +49,8 @@ require_once "../_Partials/header.view.php"
         <div class="mb-5 mb-md-4">
             <div class="row">
                 <div class="col-md-4 order-2 order-md-1">
-                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/aide-création-personnage.pdf"><img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/Aide-a-la-creation-perso.PNG" alt=""></a>
+                    <a target='blank'  href="../../fichiers/aides/creations_personnages/pdf/aide-création-personnage.pdf">
+                        <img class="img-fluid" src="../../fichiers/aides/creations_personnages/image/Aide-a-la-creation-perso.PNG" alt=""></a>
                 </div>
                 <div class="col-md col-md order-1 order-md-2">
                     <h3>Aide à la création</h3>
@@ -127,5 +121,3 @@ require_once "../_Partials/header.view.php"
 
 </div>
 
-</body>
-</html>

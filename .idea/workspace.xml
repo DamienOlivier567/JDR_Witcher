@@ -1,31 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Nouveau style du menu">
+    <list default="true" id="aa182313-cfbf-4ccb-a2d5-9b0ff2044d50" name="Default Changelist" comment="Fini">
+      <change afterPath="$PROJECT_DIR$/Controller/Traits/RenderViewTraits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Liens/deleteUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/php/deleteUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8bfa68d0-d09d-4f68-982c-2f7a12b4e575.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/download.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/download.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/shoparticles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shoparticles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/LinkController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/LinkController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/ToolsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/ToolsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/Traits/RenderViewTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/DB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Manager/Traits/ManagerTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Manager/UserManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Manager/UserManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/characterclasse.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/charactercreation.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/charactercreation.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/effets.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/effets.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/faq.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/faq.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/help.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/help.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/rules.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/rules.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shop.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shop.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoparmor.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shoppotion.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Aidedejeu/shopweapons.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Liens/connect.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Liens/connect.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/contractgenerator.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/contractgenerator.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/diceroller.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/diceroller.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Outils/namegenerator.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Outils/namegenerator.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/alchemy.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/alchemy.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/battle.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/battle.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/bestiary.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/bestiary.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/magic.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/magic.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/mapp.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/mapp.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/pnj.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/pnj.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Ressources/story.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/Ressources/story.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/header.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/header.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/_Partials/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/View/_Partials/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bestiary.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/diceroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/download.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/effets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/faq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/generator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/registration.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/shop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/shoparticles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style_connection.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/connection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <execution />
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="composer.json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1qlUU9q5U8270L7IoOXoTlAYInj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,11 +146,36 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Model\Manager" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\fichiers\resources\Alchimi" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\js" />
       <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\Liens" />
-      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\View\_Partials" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Controller\Traits" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\assets\php" />
+      <recent name="C:\Users\monst\PhpstormProjects\JDR_Witcher\Controller" />
     </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.UserTest.testgetUser">
+    <configuration name="CalculateTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="CalculateTest" file="$PROJECT_DIR$/Test/CalculateTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/Test/UserTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/Test/UserTest.php" method="testUser" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserTest.testgetUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="UserTest" file="$PROJECT_DIR$/Test/UserTest.php" method="testgetUser" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.UserTest.testUser" />
+        <item itemvalue="PHPUnit.UserTest" />
+        <item itemvalue="PHPUnit.CalculateTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,7 +219,29 @@
       <workItem from="1622620171992" duration="28989000" />
       <workItem from="1622731148852" duration="609000" />
       <workItem from="1622732288368" duration="348000" />
-      <workItem from="1622789520333" duration="10242000" />
+      <workItem from="1622789520333" duration="16822000" />
+      <workItem from="1622891033855" duration="504000" />
+      <workItem from="1622909048103" duration="1213000" />
+      <workItem from="1622989775679" duration="1548000" />
+      <workItem from="1622991361205" duration="1257000" />
+      <workItem from="1623050614814" duration="7996000" />
+      <workItem from="1623089705664" duration="4240000" />
+      <workItem from="1623136042410" duration="14709000" />
+      <workItem from="1623221335181" duration="2983000" />
+      <workItem from="1623225101650" duration="18000" />
+      <workItem from="1623225286606" duration="5177000" />
+      <workItem from="1623309349196" duration="6437000" />
+      <workItem from="1623317518080" duration="6774000" />
+      <workItem from="1623394662247" duration="12257000" />
+      <workItem from="1623663328067" duration="1220000" />
+      <workItem from="1623667060650" duration="710000" />
+      <workItem from="1623667788860" duration="2460000" />
+      <workItem from="1623670858494" duration="5035000" />
+      <workItem from="1623684084392" duration="147000" />
+      <workItem from="1623684247189" duration="4000" />
+      <workItem from="1623684352038" duration="48000" />
+      <workItem from="1623684816540" duration="850000" />
+      <workItem from="1623685701296" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="Nouveau style du menu">
       <created>1622447600230</created>
@@ -271,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622799204939</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Responsive">
+      <created>1622800757963</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622800757963</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +429,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -299,6 +458,13 @@
     <MESSAGE value="Battlemaps et Mapmonde fini" />
     <MESSAGE value="Modif des Controllers" />
     <MESSAGE value="Responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive" />
+    <MESSAGE value="Tests unitaires" />
+    <MESSAGE value="r" />
+    <MESSAGE value="Fini" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fini" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

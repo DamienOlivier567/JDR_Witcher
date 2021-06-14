@@ -2,17 +2,6 @@
 require_once "../_Partials/header.view.php"
 ?>
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../assets/css/generator.css">
-    <title>Generateur de contrat</title>
-</head>
-<body>
     <h1>Generateur de contrat</h1>
 
     <p id="debut">Bienvenue sur cette page ici plusieurs contrats vous sera proposer</p>
@@ -22,7 +11,5 @@ require_once "../_Partials/header.view.php"
     <div id="contract">
     </div>
 
-</body>
-</html>
 
 <script src="../../assets/js/contractgenerator.js"></script>

@@ -1,7 +1,8 @@
 <?php
-ini_set("display_errors", E_ALL);
+
 include "functions.php";
 require "../../Model/DB.php";
+use Model\DB;
 
 if (isset($_POST["pseudoInscript"], $_POST["emailInscript"], $_POST["passwordInscript"], $_POST["passwordConfirmInscript"])) {
     $bdd = new DB();

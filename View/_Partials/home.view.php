@@ -18,12 +18,11 @@
 
     <h1 id="title">Les Histoires</h1>
 
-    <div class="scrolly">
+
         <h2 class="topT">Le Top des Histoires (Retrouver les dans l'onglet Campagne si vous  posedez un compte)</h2>
         <ul class="carouselPre">
             <li class="itemsC">
                 <div class="contents">
-                    <h1 class="leftTxtDet">Le Gardien Du pont</h1>
                     <div class="textDet">
                         <p>Ils se retrouvent sur la rive sud du Pontar, et le
                             seul point de passage vers le nord semble être un pont d’apparence fragile
@@ -36,7 +35,6 @@
             </li>
             <li class="itemsC">
                 <div class="contents">
-                    <h1 class="leftTxtDet">Le Mal de Sonnen</h1>
                     <div class="textDet">
                         <p>Alors que nos aventuriers vont et viennent sur les routes du Nord,ils
                              apprenent que s’ils continuent leur route, ils tomberont sur le
@@ -48,7 +46,6 @@
             </li>
             <li class="itemsC">
                 <div class="contents">
-                    <h1 class="leftTxtDet">La strige</h1>
                     <div class="textDet">
                     <p>Un soir, alors que le groupe continuais son voyage via une grotte, il
                         se senti comme surveillé. Une silhouette tournait
@@ -59,7 +56,6 @@
             </li>
             <li class="itemsC">
                 <div class="contents">
-                    <h1 class="leftTxtDet">Mine en eaux troubles…</h1>
                     <div class="textDet">
                         <p>Notre groupe arrivent dans le hameau de Puygaillard-La-Haute.
                             L’échevin du village Romaric Thorm va leur proposer la mission de la dernière chance.
@@ -69,7 +65,7 @@
                 <div class="bgImg"><img src="../../fichiers/resources/campagne/img/vodianoi.jpg" alt="image"></div>
             </li>
         </ul>
-    </div>
+
 
     </body>
 

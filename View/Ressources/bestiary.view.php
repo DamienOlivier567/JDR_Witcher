@@ -2,39 +2,19 @@
 require_once "../_Partials/header.view.php"
 ?>
 
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../assets/css/bestiary.css">
-    <script src="https://kit.fontawesome.com/351e9300a0.js" crossorigin="anonymous"></script>
-    <title>Bestiaire</title>
-</head>
-<body>
-<div class="container table">
-
-    <a class="title">
-
-        <h1>Bestiare </h1>
-
-</div>
-
 <table>
+
     <!--header-->
     <thead>
     <tr>
-
-        <td>Representation</td>
-        <td>Nom</td>
-        <td>Caractéristiques</td>
-        <td>Compétences</td>
-        <td>Armure</td>
-        <td>Arme Nom,DMG,Effet,Att/tour</td>
-        <td>Vulnérabilités</td>
-        <td>Capacités</td>
+        <th scope="col">Representation</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Caractéristique</th>
+        <th scope="col">Compétence</th>
+        <th scope="col">Armure</th>
+        <th scope="col">Arme Nom, DMG,Effet,Att/tour</th>
+        <th scope="col">Vulnérabilités</th>
+        <th scope="col">Capacités</th>
     </tr>
     </thead>
 
@@ -235,8 +215,8 @@ require_once "../_Partials/header.view.php"
     <tr>
 
         <td>
-            <a href="../../fichiers/video/goule.webm" <i class="fas fa-play"></i>
-            <img src="../../assets/img/monster/goule.png" width="150px" height="200px">
+            <a href="../../fichiers/video/goule.webm"<i class="fas fa-play"></i>
+            <img src="../../assets/img/monster/goule.png "width="150px" height="200px" alt="goule">
         </td>
 
         <td>
